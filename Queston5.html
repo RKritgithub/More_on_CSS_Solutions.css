@@ -1,0 +1,54 @@
+<!-- Question5: -->
+<!-- Create a simple blog website about Google fonts. The webpage must have the heading with “Oswald” font align center to the page, below the heading have an image of Google fonts and a paragraph about Google fonts in font “Montserrat” paragraph font style should be “montserrat” font. -->
+<!-- Answers: -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Fonts Blog</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Montserrat&display=swap">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: "Montserrat", sans-serif;
+            text-align: center;
+        }
+
+        /* for the heading in "Oswald" font */
+        h1 {
+            font-family: "Oswald", sans-serif;
+            font-weight: 500;
+            font-size: 40px;
+            margin-top: 20px;
+        }
+
+        /* for paragraph */
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin: 20px;
+        }
+
+        /*for image */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Google Fonts</h1>
+    <img src="https://i.pinimg.com/originals/a5/61/0e/a5610e20326ead600ce084cd2675c310.jpg" alt="Google Fonts Image" width="350px" height="350px">
+    <p>
+        Google Fonts makes it easy to bring personality and performance to your websites and products. 
+        Google Fonts is a library of free and open-source fonts. It provides a wide range of high-quality fonts that can enhance the typography and design of our website. With Google Fonts, you can easily integrate custom fonts into your web pages by including a simple stylesheet link.
+    </p>
+</body>
+</html>
+<!-- We include the "Oswald" and "Montserrat" fonts from Google Fonts using the <link> element in the <head> section. -->

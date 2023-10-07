@@ -1,0 +1,47 @@
+<!-- Question7: -->
+<!-- Create a simple webpage with a card similar to question number 2. The card must be semi-transparent as default and on hovering the card must be displayed clearly. Use CSS opacity to achieve this output. -->
+<!-- Answers: -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1{
+            display: inline-block;
+            padding: 15px;
+            border: 2px solid black;
+        }
+        .box1 img{
+            border: 1px solid black;
+            border-radius: 10%;
+            
+        }
+        .box2{
+            display: inline-block;
+            padding: 15px;
+            border: 2px solid black;
+        }
+        .box2 img{
+            border: 1px solid black;
+            border-radius: 10%;
+            
+        }
+        .box2 img:hover{
+            opacity: 0.5;
+        }
+    </style>
+</head>
+<body>
+    <h2>Witout hovering</h2>
+    <div class="box1">
+        <img src="https://cdn.pwskills.com/assets/uploads/thumbnails/64a514966977cc6e87e27504.png" alt="An image">
+    </div>
+    <h2>With hovering</h2>
+    <div class="box2">
+        <img src="https://cdn.pwskills.com/assets/uploads/thumbnails/64a514966977cc6e87e27504.png" alt="An image">
+    </div>
+    
+</body>
+</html>

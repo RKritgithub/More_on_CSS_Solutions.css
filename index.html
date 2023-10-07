@@ -1,0 +1,57 @@
+<!-- Question_1 -->
+<!-- Create a navigation bar similar to the below-mentioned image. The navigation bar must contain 5 navigation links that are properly placed within the navigation bar using the CSS box model. The navigation items must change their text color on hover. -->
+<!-- Answers: -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+        * {
+            margin: 4px;
+            padding: 2px;
+            box-sizing: border-box;
+            
+        }
+
+        /* Style for the navigation bar */
+        .navbar {
+            background-color: #8CABFF;
+            overflow: hidden;
+            
+        }
+
+        /* Style for the navigation links */
+        .navbar a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change the text color on hover */
+        .navbar a:hover {
+            background-color: #ddd;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+        <a href="#">Blog</a>
+        <a href="#">Login</a>
+    </div>
+</body>
+</html>
+<!-- In this code: -->
+
+<!-- 1.We create a div element with the class navbar to represent the navigation bar.
+2.Inside the navigation bar, we have 5 a elements for the navigation links: Home, About Us, Contact, Blog, and Login.
+3.We apply CSS styles to the navigation bar to set its background color to  #8CABFFand make it horizontally scrollable if the content overflows.
+4.We style the navigation links using the CSS box model. The links are floated to the left, given a white text color, and have padding for spacing.

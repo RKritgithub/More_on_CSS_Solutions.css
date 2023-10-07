@@ -1,0 +1,58 @@
+ <!-- Question_2:  -->
+ <!-- Create a div centered with an image and paragraph similar to the image mentioned below.  -->
+<!-- Answers:  -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Div with Image and Paragraph</title>
+    <style>
+        /* Centering the div vertically and horizontally */
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* Style for the centered div */
+        .centered-div {
+            text-align: center;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Style for the image */
+        .centered-div img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Style for the paragraph */
+        .centered-div p {
+            margin-top: 10px;
+            font-size: 18px;
+            color: #333;
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="centered-div">
+        <img src="./screenshot.png" alt="Image Description">
+        <p>
+            <img src="https://cdn.pwskills.com/assets/uploads/thumbnails/64a514966977cc6e87e27504.png" alt="An image">
+        </p>
+    </div>
+</body>
+</html>
+<!-- 1.We use CSS Flexbox to center the div both vertically and horizontally within the viewport (height: 100vh ensures the div takes up the full height of the viewport).
+
+2.The .centered-div class styles the centered div. It adds padding, a border, border-radius for rounded corners, a background color, and a box shadow for a card-like appearance.
+3.The .centered-div img style ensures that the image inside the div resizes properly to fit its container while maintaining its aspect ratio.
+4.The .centered-div p style defines the appearance of the paragraph text with a margin at the top, a font size, and a text color. -->
